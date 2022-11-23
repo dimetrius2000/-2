@@ -20,7 +20,7 @@ def operation(a=0, b=0):
                     print(f'Частное от деления чисел {a} и {b} равно {a / b}')
                     operation(a, b)
                 else:
-                    print('На ноль делить нельзя')
+                    print('На ноль делить нельзя ')
                     operation(a, b)
             else:
                 print('Оператор не распознан, попробуйте еще раз')

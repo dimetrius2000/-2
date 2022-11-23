@@ -9,6 +9,7 @@ def determine(a,count_1=0,count_2=0):
 
     print(f'Количество четных и нечетных цифр в числе равно: ({count_1}, {count_2})')
 
+
 a = int(input('Введите число: '))
 determine(a)
 

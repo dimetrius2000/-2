@@ -1,6 +1,5 @@
 import random
 
-
 def guess_num(n=0, a=random.randint(0, 100), i=10):
     if n != a and i > 0:
         n = int(input('Введите число: '))
